@@ -221,12 +221,20 @@
         <item-type>Number</item-type>
         <label>ESP32 Temperature</label>
         <description></description>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Temperature</tag>
+		</tags>
         <state readOnly="true"></state>
     </channel-type>
     <channel-type id="slzb06_zbtemp">
         <item-type>Number</item-type>
         <label>ZigBee Temperature</label>
         <description></description>
+		<tags>
+			<tag>Measurement</tag>
+			<tag>Temperature</tag>
+		</tags>
         <state readOnly="true"></state>
     </channel-type>
     <channel-type id="slzb06_socketuptime">
